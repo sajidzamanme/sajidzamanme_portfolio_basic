@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "poppins_reg";
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+.navAndHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Facebook-Linkedin-image-template-10.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.navAndHero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: #FFE4C4;
+    margin: 1.5rem 3rem;
+    padding: 0.6rem 1.5rem;
+    gap: 10rem;
+    border-radius: calc(infinity*1rem);
+}
+
+.logo{
+    color: #FF6200;
+    font-family: "poppins_reg";
+    font-size: 3rem;
+    font-weight:900;
+    margin-left: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF4E5;
+    border-radius: calc(infinity*1rem);
+    padding: 0.5rem 4rem;
+    font-family: "poppins_reg";
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+    background-color: #FFA323;
+    font-family: "poppins_reg";
+    font-size: 1.2rem;
+    padding: 0.5rem 1.1rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+}
+
+#maintext1{
+    color: #FF6200;
+    font-family: "poppins_reg";
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 0rem 1rem;
+    background: rgba(0, 0, 0, 0.3)
+}
+#maintext2{
+    color: #FFA323;
+    font-family: "poppins_reg";
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0rem 1rem;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.projectsSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projTitle{
+    font-family: "poppins_reg";
+    font-size: 1.6rem;
+    font-weight:500;
+    color: #FF6200;
+    margin-top: 1.5rem;
+}
+
+.projbar{
+    background-color: #FF6200;
+    color: #FF6200;
+    font-size: 2.5px;
+    padding: 0px 3.6rem;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+    font-family: "poppins_reg";
+}
+
+.projectbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE4C4;
+    padding: 1rem;
+}
+
+.projectbox a{
+    color: #FF6200;
+    text-decoration: none;
+    text-align: center;
+}
+
+.projectbox a p{
+    margin-top: 0.5rem;
+}
+
+.projectbox img{
+    width: 368px;
+    height: 276px;
+}
