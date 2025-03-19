@@ -134,16 +134,16 @@
     padding: 0px 3.6rem;
 }
 
-.projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(416px, 1fr));
+    justify-items: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 2rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
     gap: 2rem;
     font-family: "poppins_reg";
+    width: 100%;
 }
 
 .projectbox{
