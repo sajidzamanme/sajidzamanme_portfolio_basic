@@ -106,8 +106,8 @@ body{
 
 .FPText{
     color:#FF6200;
-    align-self: flex-end;
-    padding-right: 10px;
+    align-self: center;
+    font-size: 14px;
 }
 
 .continueBtn{
@@ -115,7 +115,7 @@ body{
     background-color: #FFA323;
     color: black;
     font-family: "poppins_reg";
-    font-size: 18px;
+    font-size: 20px;
     padding: 0.6rem 0.8rem;
     border-radius: 0.5rem;
 }
