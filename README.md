@@ -1,7 +1,7 @@
 # Basic Portfolio
 Basic Portfolio with html and basic css. <br>
 # Live Server 
-<b>Link:</b> [sajidzamanme.github.io/](https://sajidzamanme.github.io/)
+<b>Link:</b> https://sajidzamanme.github.io/sajidzamanme_portfolio_basic/
 
 # Screenshots:
 <b>Home Page:</b>
